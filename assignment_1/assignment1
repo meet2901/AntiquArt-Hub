@@ -1,1 +1,26 @@
+Downloading GitHub:
+Visit GitHub's website: Go to GitHub in your web browser.
 
+Sign up (if you haven't already): Click on "Sign up" in the upper-right corner and follow the prompts to create an account.
+
+Download GitHub Desktop (optional): If you prefer a desktop application, you can download GitHub Desktop from the GitHub Desktop website and install it on your computer. Alternatively, you can use Git from the command line, which is pre-installed on most Unix-based systems (like Linux and macOS) or can be installed on Windows.
+
+Creating a Git Repository:
+Using GitHub Desktop:
+Open GitHub Desktop: If you've installed GitHub Desktop, open the application.
+
+Sign in: Sign in to GitHub Desktop using your GitHub account credentials.
+
+Create a New Repository:
+
+Click on "File" in the menu bar.
+Select "New Repository".
+Fill in the details such as the repository name, description, local path, and the gitignore template (if needed).
+Click on "Create Repository".
+Initialize the Repository: If you're starting from scratch, GitHub Desktop will automatically initialize the repository for you.
+
+create two folders named Assignment_1 and Assignment_2.
+
+Commit Changes: Add your files to the repository by dragging and dropping them into GitHub Desktop. Write a commit message describing your changes and click "Commit".
+
+Publish Repository: To publish your repository to GitHub, click on "Publish repository" in GitHub Desktop.
