@@ -66,10 +66,10 @@ body {
     width: auto;
     margin-left: 20px
 }
-@media only screen and(max-width: 496px){
+@media only screen and(max-width: 500px){
     .navbar a{
         font-size: 10px;
-        /* margin-right: 0px; */
+        margin-right: 0px;
     }
 }
 .imgp img{
