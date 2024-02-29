@@ -82,3 +82,16 @@ h1{
     /* background-color: black; */
     color: white;
 }
+@media only screen and (max-width: 500px){
+    .login a{
+        background-color: #934E4E;
+        margin: -5px;
+        padding: 10px;
+        font-size: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+}

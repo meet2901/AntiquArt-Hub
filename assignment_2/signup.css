@@ -77,6 +77,19 @@ h1{
     padding: 10px;
 
 }
+@media only screen and (max-width: 500px){
+    .signup a{
+        background-color: #934E4E;
+        margin: -5px;
+        padding: 10px;
+        font-size: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+}
 
 .signup a:hover{
     background-color: #934E4E;
