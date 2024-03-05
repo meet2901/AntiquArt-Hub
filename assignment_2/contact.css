@@ -95,20 +95,22 @@ body {
 }
 
 .contact-list li {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     list-style-type: none;
     margin-bottom: 10px;
+    text-align: center;
     /* gap:; */
 }
 
 .contact-list strong {
-    display: flex;
+    /* display: flex; */
     /* flex-direction: column; */
     font-weight: bold;
     /* display: inline-block; */
     width: 100px;
-    align-items: center;
+    /* text-align: center; */
+    /* align-items: center; */
 }
 
 .contact-list a {
