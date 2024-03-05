@@ -91,6 +91,7 @@ body {
     align-items: center;
     list-style: none;
     padding: 0;
+    gap: 25px;
 }
 
 .contact-list li {
@@ -98,14 +99,16 @@ body {
     flex-direction: column;
     list-style-type: none;
     margin-bottom: 10px;
+    /* gap:; */
 }
 
 .contact-list strong {
-    /* display: flex; */
+    display: flex;
     /* flex-direction: column; */
     font-weight: bold;
-    display: inline-block;
+    /* display: inline-block; */
     width: 100px;
+    align-items: center;
 }
 
 .contact-list a {
@@ -116,6 +119,6 @@ body {
 }
 @media only screen and (max-width: 500px){
     .contact-list li{
-        font-size: 8px;
+        font-size: 10px;
     }
 }
