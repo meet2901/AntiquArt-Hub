@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.cart-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.cart-item-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.cart-total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    background-color: #fefefe;
+    margin-right: 0px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.navbar a {
+    font-size: 20px;
+}
+
+.navbar a.logo {
+    float: left;
+    display: block;
+    color: rgb(3, 1, 1);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar .nav-links {
+    float: right;
+    list-style-type: none;
+    position: relative;
+    bottom: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .nav-links li {
+    float: left;
+}
+
+.navbar .nav-links li a {
+    display: block;
+    color: rgb(5, 5, 5);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar .nav-links li a:hover {
+    background-color: #170f0f;
+    color: rgb(255, 255, 255);
+}
+
+.logo img {
+    position: relative;
+    top: 25px;
+    left: 20px;
+    height: 40px;
+    width: auto;
+    margin-left: 20px
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar a {
+        font-size: 8px;
+        margin-right: 0px;
+    }
+}
