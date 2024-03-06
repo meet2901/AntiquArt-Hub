@@ -14,7 +14,7 @@ body{
 }
 .container{
     display: flex;
-    background-color: #934E4E;
+    background-color: #5dafcd;
     flex-direction: column;
     width: 300px;
     padding: 15px;
@@ -67,12 +67,12 @@ button:hover{
 }
 h1{
     padding: 5px;
-    background-color:#934E4E;
+    background-color:#5dafcd;
     color:rgb(7, 8, 8);
 }
 
 .login a{
-    background-color: #934E4E;
+    background-color: #5dafcd;
     margin: -6px;
     padding: 10px;
 
@@ -84,7 +84,7 @@ h1{
 }
 @media only screen and (max-width: 500px){
     .login a{
-        background-color: #934E4E;
+        background-color: #5dafcd;
         margin: -5px;
         padding: 10px;
         font-size: 8px;

@@ -1,10 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color:white;
+    background-color: white;
 }
-body{
+
+body {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -12,24 +13,28 @@ body{
     align-items: center;
     justify-content: center;
 }
-.container{
+
+.container {
     display: flex;
-    background-color: #934E4E;
+    background-color: #5dafcd;
     flex-direction: column;
     width: 300px;
     padding: 15px;
     border: 1px solid #934E4E;
     border-radius: 10px;
-    box-shadow:  15px 15px 18px #934E4E;
+    box-shadow: 15px 15px 18px #934E4E;
 }
-input{
+
+input {
     background-color: rgb(255, 255, 255);
     border: 5px;
+    border-radius: 5px;
     margin: 10px 0px;
     height: 35px;
     padding: 7px;
     color: black;
 }
+
 /* button {
     height: 35px;
     margin: 5px 0px;
@@ -38,12 +43,12 @@ input{
     border: radius 5px;
     color:rgb(255, 255, 255)
 }/ */
-.button{
+.button {
     display: inline-block;
     margin: 5px 0px;
     height: 35px;
     align-content: center;
-    position:relative;
+    position: relative;
     justify-content: center;
     background-color: #070c08;
     color: white;
@@ -52,49 +57,54 @@ input{
     text-decoration: none;
     /* margin-top: 1rem; */
 }
-a{
+
+a {
     background-color: white;
     color: black;
 }
-.button a:hover{
+
+.button a:hover {
     background-color: #ffffff;
     color: rgb(10, 14, 15);
-    }
+}
 
-button:hover{
+button:hover {
     background-color: #fffdfd;
     color: rgb(10, 14, 15);
 }
-h1{
+
+h1 {
     padding: 5px;
-    background-color:#934E4E;
-    color:rgb(7, 8, 8);
+    background-color: #5dafcd;
+    color: rgb(7, 8, 8);
 }
 
-.signup a{
-    background-color: #934E4E;
+.signup a {
+    background-color: #5dafcd;
     margin: 30px;
     padding: 10px;
 
 }
-@media only screen and (max-width: 500px){
-    .signup a{
-        background-color: #934E4E;
+
+@media only screen and (max-width: 500px) {
+    .signup a {
+        background-color: #5dafcd;
         margin: -5px;
         padding: 10px;
         font-size: 8px;
         display: flex;
         justify-content: center;
         align-items: center;
-    
+
     }
-    
+
 }
 
-.signup a:hover{
-    background-color: #934E4E;
+.signup a:hover {
+    background-color: #5dafcd;
     color: white;
 }
-.signup{
-    background-color: #934E4E;
+
+.signup {
+    background-color: #5dafcd;
 }
