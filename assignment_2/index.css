@@ -61,15 +61,15 @@ body {
 .logo img {
     position: relative;
     top: 25px;
-    left: 20px;
+    left: 2px;
     height: 40px;
     width: auto;
-    margin-left: 20px;
+    margin-left: 20px
 }
 
 @media only screen and (max-width: 600px) {
     .navbar a {
-        font-size: 8px;
+        font-size: 7px;
         margin-right: 0px;
     }
 }
