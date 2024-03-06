@@ -78,11 +78,7 @@ body {
     display: block;
 }
 
-<<<<<<< HEAD
 @media only screen and (max-width: 600px) {
-=======
-@media only screen and (max-width: 500px) {
->>>>>>> 836c276d03077b25f374bf61b6afdc7c66ff131a
     .navbar a {
         font-size: 8px;
         margin-right: 0px;
