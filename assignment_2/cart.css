@@ -13,7 +13,8 @@ body {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-    border: 1px solid #ddd;
+    border: 3px solid #000000;
+    border-radius: 10px;
     padding: 10px;
 }
 
@@ -120,7 +121,7 @@ body {
 
 @media only screen and (max-width: 600px) {
     .navbar a {
-        font-size: 8px;
+        font-size: 7px;
         margin-right: 0px;
     }
 }

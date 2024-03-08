@@ -53,11 +53,11 @@ input{
     /* margin-top: 1rem; */
 }
 a{
-    background-color: white;
+    background-color: 5dafcd;
     color: black;
 }
 .button a:hover{
-    background-color: #ffffff;
+    background-color: #5dafcd;
     color: rgb(10, 14, 15);
     }
 
