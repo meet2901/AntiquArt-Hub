@@ -80,7 +80,7 @@ body {
 
 @media only screen and (max-width: 600px) {
     .navbar a {
-        font-size: 8px;
+        font-size: 7px;
         margin-right: 0px;
     }
 }
