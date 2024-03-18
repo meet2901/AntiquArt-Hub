@@ -100,6 +100,7 @@ body {
 .content>p {
     padding: 20px;
     margin: 10px;
+    text-align: center;
 }
 
 .container {
