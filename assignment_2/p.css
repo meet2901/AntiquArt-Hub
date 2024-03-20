@@ -9,6 +9,8 @@ body {
     padding: 0;
     height: 100%;
     width: 100%;
+    /* overflow: hidden; */
+    background-color: grey;
 }
 
 .navbar {
@@ -111,7 +113,8 @@ body {
     padding: 10px;
     display: flex;
     justify-content: center;
-    /* border: 1px solid; */
+    /* border: 1px solid rgb(197, 151, 241); */
+    border-radius: 10px;
     align-items: center;
     gap: 10px;
 }
@@ -122,11 +125,18 @@ body {
 .Product img {
     width: 170px;
     height: 170px;
+    border: 1px solid wheat;
+    border-radius: 5px;
 }
 
 button {
     font-size: small;
     cursor: pointer;
+}
+.Product-max1:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow:  0px 0px 10px #ebebeb;
+    transition: .2s;
 }
 
 @media only screen and (min-width: 650px) {
@@ -142,4 +152,5 @@ button {
         flex: 0 0 calc(33.33% - 60px);
         max-width: calc(33.33% - 60px);
     }
+    
 }
