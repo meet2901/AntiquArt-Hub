@@ -15,7 +15,7 @@ body {
     transition: 0.3s;
 }
 .container:hover{
-    scale: 1.09;
+    scale: 1.09:
 }
 
 .message {
