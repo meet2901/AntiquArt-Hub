@@ -96,7 +96,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: black;
+   
 }
 
 .content>p {
@@ -181,7 +181,7 @@ body {
         text-align: center;
         justify-content: center;
         align-items: center;
-        color: black;
+
     }
 
     .content>p {
